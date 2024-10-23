@@ -7,6 +7,19 @@
 }
 
 
+.video-container {
+    width: 100%;
+    max-width: 600px; /* Optional: set a maximum width */
+    margin: 0 auto; /* Center the container */
+}
+
+video {
+    width: 100%; /* Full width for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
 .navbar-nav .nav-link {
     color: white;
     font-weight: bold;
