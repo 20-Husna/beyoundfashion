@@ -9,13 +9,13 @@
 
 .video-container {
     width: 100%;
-    max-width: 600px; /* Optional: set a maximum width */
-    margin: 0 auto; /* Center the container */
+    max-width: 600px; 
+    margin: 0 auto; 
 }
 
 video {
-    width: 100%; /* Full width for responsiveness */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%;
+    height: auto; 
 }
 
 
@@ -28,7 +28,7 @@ video {
 
 
 
-/* Footer Style */
+
 .footer {
   background-image: url('f1.jpg');
   background-size: cover;
