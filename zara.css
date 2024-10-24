@@ -1,0 +1,72 @@
+h1 {
+    text-align: center;
+    padding-top: 20pt;
+}
+
+img {
+    height: auto; /* Make height auto to maintain aspect ratio */
+    width: 80%; /* Keep width at 80% for responsiveness */
+    max-width: 500px; /* Optional: set a maximum width */
+    display: block; /* Center align images */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+p {
+    padding-left: 10pt;
+    padding-right: 10pt;
+    text-align: justify;
+}
+
+.tab {
+    text-align: center;
+}
+
+table td:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+h4 {
+    padding-left: 10pt;
+}
+
+table {
+    width: 100%; /* Use 100% width for tables */
+    max-width: 600px; /* Optional: set a maximum width for the table */
+    margin: 0 auto; /* Center the table */
+    border-collapse: collapse; /* Improve table appearance */
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    img {
+        width: 100%; /* Full width for mobile */
+        padding-left: 0; /* Remove left padding */
+    }
+
+    p {
+        padding-left: 5pt; /* Adjust padding for smaller screens */
+        padding-right: 5pt;
+    }
+
+    table {
+        width: 100%; /* Full width for tables on mobile */
+    }
+
+    table td {
+        padding: 10pt; /* Add some padding to table cells */
+    }
+
+    .under {
+        text-align: center; /* Center underline text for mobile */
+    }
+
+    #vid {
+        margin-left: 0; /* Remove left margin for mobile */
+        width: 100%; /* Make video responsive */
+    }
+}
