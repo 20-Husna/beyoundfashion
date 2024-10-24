@@ -1,42 +1,70 @@
-h1{
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100vw; 
+    overflow-x: hidden;
+}
+
+h1 {
     text-align: center;
     padding-top: 24pt;
-    
 }
-img{
-    height:500;
-    width:80%;
-    padding-left: 200pt;
-    
+
+img {
+    width: 100%; /* Make the image responsive */
+    max-height: 500px; /* Set a max height to prevent overflowing */
+    height: auto; /* Maintain aspect ratio */
+    padding-left: 0; /* Remove left padding for better centering */
 }
-p{
+
+p {
     padding-left: 10pt;
     padding-right: 10pt;
     text-align: justify;
 }
-.tab{
+
+.tab {
     text-align: center;
 }
 
-table td:hover{
+table td:hover {
     background-color: aliceblue;
     color: black;
 }
 
-
-
-h4{
+h4 {
     padding-left: 10pt;
 }
-table{
-    height: 200pt;
-    width:150pt;
+
+table {
+    width: 100%; /* Set the table width to 100% for responsiveness */
+    height: auto; /* Adjust height to auto for better fit */
 }
 
-
-.under{
+.under {
     text-decoration: underline;
 }
-#vid{
-    margin-left: 25%
+
+#vid {
+    width: 100%; /* Ensure the video takes full width */
+    max-width: 100%; /* Ensure no overflow */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 0; /* Center the video */
+}
+
+/* Mobile-specific styles */
+@media only screen and (max-width: 768px) {
+    img {
+        padding-left: 0; /* Center image on mobile */
+    }
+
+    table {
+        font-size: 14px; /* Adjust font size for better readability on mobile */
+    }
+
+    p {
+        padding-left: 5pt; /* Adjust padding for mobile */
+        padding-right: 5pt;
+    }
 }
