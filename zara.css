@@ -12,10 +12,10 @@ h1 {
 }
 
 img {
-    width: 100%; /* Make the image responsive */
-    max-height: 500px; /* Set a max height to prevent overflowing */
-    height: auto; /* Maintain aspect ratio */
-    padding-left: 0; /* Remove left padding for better centering */
+    width: 100%; 
+    max-height: 500px; 
+    height: auto; 
+    padding-left: 0;
 }
 
 p {
@@ -38,8 +38,8 @@ h4 {
 }
 
 table {
-    width: 100%; /* Set the table width to 100% for responsiveness */
-    height: auto; /* Adjust height to auto for better fit */
+    width: 100%; 
+    height: auto; 
 }
 
 .under {
@@ -47,24 +47,24 @@ table {
 }
 
 #vid {
-    width: 100%; /* Ensure the video takes full width */
-    max-width: 100%; /* Ensure no overflow */
-    height: auto; /* Maintain aspect ratio */
-    margin-left: 0; /* Center the video */
+    width: 100%; 
+    max-width: 100%; 
+    height: auto;
+    margin-left: 0; 
 }
 
-/* Mobile-specific styles */
+
 @media only screen and (max-width: 768px) {
     img {
-        padding-left: 0; /* Center image on mobile */
+        padding-left: 0; 
     }
 
     table {
-        font-size: 14px; /* Adjust font size for better readability on mobile */
+        font-size: 14px; 
     }
 
     p {
-        padding-left: 5pt; /* Adjust padding for mobile */
+        padding-left: 5pt; 
         padding-right: 5pt;
     }
 }
