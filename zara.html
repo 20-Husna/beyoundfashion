@@ -6,161 +6,161 @@
     <title>Zara</title>
     <link href="zara.css" rel="stylesheet"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <style>
-        body {
-            padding: 20px;
-            font-family: Arial, sans-serif; 
-            background-color: #f8f9fa; 
-        }
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
-        h1 {
-            text-align: center;
-            padding-top: 20pt;
-            color: #343a40; 
-        }
+body {
+    padding: 20px;
+    font-family: Arial, sans-serif; /* Font for better aesthetics */
+    background-color: #f8f9fa; /* Light background color */
+}
 
-        img {
-            height: auto; 
-            width: 80%; 
-            max-width: 500px; 
-            display: block; 
-            margin: 0 auto; 
-            border-radius: 10px; 
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
-        }
+h1 {
+    text-align: center;
+    padding-top: 20pt;
+    color: #343a40; /* Dark color for headings */
+}
 
-        p {
-            padding-left: 10pt;
-            padding-right: 10pt;
-            text-align: justify;
-            color: #495057; 
-        }
+img {
+    display: block; /* Center align images */
+    margin: 0 auto; /* Center horizontally */
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Add shadow for depth */
+}
 
-        .tab {
-            text-align: center;
-            font-size: 1.5em; 
-            margin: 20px 0;
-        }
+p {
+    padding-left: 10pt;
+    padding-right: 10pt;
+    text-align: justify;
+    color: #495057; /* Gray text for better readability */
+}
 
-        table {
-            width: 100%; 
-            margin: 20px auto; 
-            border-collapse: collapse; 
-            background-color: #343a40; 
-            color: white; 
-        }
+.tab {
+    text-align: center;
+    font-size: 1.5em; /* Increase size for visibility */
+    margin: 20px 0; /* Add margin */
+}
 
-        table td, table th {
-            padding: 10pt; 
-            text-align: center; 
-        }
+table {
+    width: 100%; /* Full width on mobile */
+    margin: 20px auto; /* Center the table */
+    border-collapse: collapse; /* Improve appearance */
+    background-color: #343a40; /* Table background color */
+    color: white; /* Table text color */
+}
 
-        table td:hover {
-            background-color: aliceblue; 
-            color: black;
-        }
+table td, table th {
+    padding: 10pt; /* Add padding */
+    text-align: center; /* Center align text */
+}
 
-        h4 {
-            padding-left: 10pt;
-            color: #007bff;
-        }
+table td:hover {
+    background-color: aliceblue; /* Change hover color */
+    color: black;
+}
 
-    
-        video {
-            width: 100%; 
-            height: auto; 
-            border-radius: 10px; 
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
-            margin: 20px 0; 
-        }
+h4 {
+    padding-left: 10pt;
+    color: #007bff; /* Change color for headings */
+}
 
-      
-        @media only screen and (max-width: 768px) {
-            h1 {
-                font-size: 24px; 
-            }
+/* Video Styles */
+video {
+    width: 100%; /* Full width on all devices */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Add shadow for depth */
+    margin: 20px 0; /* Add margin for spacing */
+}
 
-            img {
-                width: 100%; 
-                padding-left: 0; 
-            }
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px; /* Adjust font size */
+    }
 
-            p {
-                padding-left: 5pt; 
-                padding-right: 5pt;
-            }
-        }
-    </style>
+    img {
+        width: 100%; /* Full width on mobile */
+        height: auto; /* Maintain aspect ratio */
+        padding-left: 0; /* Remove padding */
+    }
+
+    p {
+        padding-left: 5pt; /* Adjust padding */
+        padding-right: 5pt;
+    }
+}
+</style>
 </head>
 <body>
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-body">
-    <div class="container">
+   
+   <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+      <div class="container">
         <a class="navbar-brand" href="#">Zara</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#vid">Video</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#stat">Statistics</a>
-                </li>
-            </ul>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#vid">Video</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#stat">Statistics</a>
+            </li>
+          </ul>
         </div>
-    </div>
-</nav>
-
-<h1>Is Zara a fast fashion brand?</h1>
-<br>
-<img src="Zara-Cover-black.jpg" alt="Zara"/>
-<br>
-<h4 class="under"> Key takeaways </h4>
-<ul>
-    <li>Zara is a Spanish multinational clothing retailer that was founded in 1975. It is one of the largest fashion brands in the world, with over 3,000 stores in over 90 countries.</li>
-    <li>Zara is known for its fast fashion business model, which allows it to quickly bring new designs to market.</li>
-    <li>Zara has been criticized for its environmental and social impact. While the company has made efforts to deal with the problem, there is still much that needs to be done.</li>
-</ul>
-<br>
-<h4>What is Zara?</h4>
-<p>Zara is a Spanish multinational fashion brand founded in 1975 by Amancio Ortega and Rosalía Mera. It is the largest parent company of the Inditex fashion group, which also owns other brands such as Pull&Bear, Massimo Dutti, Bershka, Stradivarius, and Oysho. As of January 2023, Zara had over 3,000 stores, including kids and home stores in over 90 countries.</p>
-<br>
-<h4>Zara and fast fashion</h4>
-<p>Zara is somewhat deceiving. While the iconic brand may not come across as a fast fashion brand because it positions itself as a premium brand, it's one. In fact, Zara might be the poster child for fast fashion. The term 'fast fashion' first appeared in the New York Times in the early 1990s when Zara opened a store in New York. The term described how Zara could take a garment from design to market in just 15 days. The brand's designs can go from the drawing board to retail in about two weeks. In comparison, traditional brands usually take four to eight weeks to achieve the same feat.
-Zara offers trendy clothing at affordable prices, making them accessible to more consumers. By keeping prices low, the brand encourages mass consumption. Zara's stores receive frequent shipments of new items, sometimes as often as twice a week. This encourages customers to visit the stores regularly to discover the latest trends and make impulse purchases. Zara's business model encourages the culture of disposable fashion since the brand typically produces garments made from cheap, synthetic materials like polyester and spandex. This business model contrasts with sustainable fashion practices that prioritize durability and longevity.</p>
-<br>
-
-<video id="vid" controls>
-    <source src="FastFashion2.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
-
-<br>
-<h4>Zara's role in fast fashion industry</h4>
-<p>Zara claims it has made some progress when it comes to minimizing its environmental impact. In 2022, the brand introduced Zara Pre-Owned — a platform that offers repair services and allows customers to drop off their used clothing, footwear, and accessories in containers at Zara Stores for reuse and recycling in partnership with non-profit organizations. Unfortunately, while Zara’s Pre-Owned platform may demonstrate the brand’s commitment to minimizing textile waste, it isn’t true to the goals of a circular economy. Ironically, while the initiative aims to reduce Zara’s textile waste, the brand still churns out nearly 450 million garments annually and over 500 new styles weekly.
-
-Additionally, Zara still uses cheap synthetic materials like polyester, nylon, and acrylic to produce clothes. Synthetic materials are made from petroleum, a fossil fuel that's a major contributor to climate change. Fossil fuels account for nearly 75% of global greenhouse gas emissions and about 90% of carbon dioxide emissions.
-
-Synthetic fabrics also release harmful pollutants into the environment when they are produced and disposed of. For instance, synthetic fibers shed microplastics, of which nearly half a million tonnes end up in oceans annually.
-
-Finally, while Zara offers a recycling program, the brand doesn't provide any information about waste management practices, such as water disposal. This issue is of grave concern because the fashion industry accounts for nearly 20% of all water pollution worldwide.</p>
-
-<br>
-<h3 class="tab">Zara's statistics</h3>
-<br>
-<section>
-    <div class="container">
+      </div>
+    </nav>
+   
+   <h1>Is Zara a fast fashion brand?</h1>
+   <br>
+   <br>
+   <img src="Zara-Cover-black.jpg" alt="Zara" style="width: 500px; height: auto; display: block; margin: 0 auto;" />
+   <br>
+   <br>
+   <h4 class="under"> Key takeaways </h4>
+   <ul>
+       <li>Zara is a Spanish multinational clothing retailer that was founded in 1975. It is one of the largest fashion brands in the world, with over 3,000 stores in over 90 countries.</li>
+       <li>Zara is known for its fast fashion business model, which allows it to quickly bring new designs to market.</li>
+       <li>Zara has been criticized for its environmental and social impact. While the company has made efforts to deal with the problem, there is still much that needs to be done.</li>
+   </ul>
+   <br>
+   <br>
+   <h4>What is Zara?</h4>
+   <p>Zara is a Spanish multinational fashion brand founded in 1975 by Amancio Ortega and Rosalía Mera. It is the largest parent company of the Inditex fashion group, which also owns other brands such as Pull&Bear, Massimo Dutti, Bershka, Stradivarius, and Oysho. As of January 2023, Zara had over 3,000 stores, including kids and home stores in over 90 countries.</p>
+   <br>
+   <br>
+   <h4>Zara and fast fashion</h4>
+   <p>Zara is somewhat deceiving. While the iconic brand may not come across as a fast fashion brand because it positions itself as a premium brand, it's one. In fact, Zara might be the poster child for fast fashion. The term 'fast fashion' first appeared in the New York Times in the early 1990s when Zara opened a store in New York. The term described how Zara could take a garment from design to market in just 15 days. The brand's designs can go from the drawing board to retail in about two weeks. In comparison, traditional brands usually take four to eight weeks to achieve the same feat.
+   Zara offers trendy clothing at affordable prices, making them accessible to more consumers. By keeping prices low, the brand encourages mass consumption. Zara's stores receive frequent shipments of new items, sometimes as often as twice a week. This encourages customers to visit the stores regularly to discover the latest trends and make impulse purchases. Zara's business model encourages the culture of disposable fashion since the brand typically produces garments made from cheap, synthetic materials like polyester and spandex. This business model contrasts with sustainable fashion practices that prioritize durability and longevity.</p>
+   <br>
+   <br>
+   <video id="vid" controls style="width: 100%; height: auto; margin: 20px 0;">
+       <source src="FastFashion2.mp4" type="video/mp4">
+   </video>
+    
+   <br>
+   <br>
+   <h4>Zara's role in fast fashion industry</h4>
+   <p>Zara claims it has made some progress when it comes to minimizing its environmental impact. In 2022, the brand introduced Zara Pre-Owned — a platform that offers repair services and allows customers to drop off their used clothing, footwear, and accessories in containers at Zara Stores for reuse and recycling in partnership with non-profit organizations. Unfortunately, while Zara’s Pre-Owned platform may demonstrate the brand’s commitment to minimizing textile waste, it isn’t true to the goals of a circular economy. Ironically, while the initiative aims to reduce Zara’s textile waste, the brand still churns out nearly 450 million garments annually and over 500 new styles weekly.
+   Additionally, Zara still uses cheap synthetic materials like polyester, nylon, and acrylic to produce clothes. Synthetic materials are made from petroleum, a fossil fuel that's a major contributor to climate change. Fossil fuels account for nearly 75% of global greenhouse gas emissions and about 90% of carbon dioxide emissions.
+   Synthetic fabrics also release harmful pollutants into the environment when they are produced and disposed of. For instance, synthetic fibers shed microplastics, of which nearly half a million tonnes end up in oceans annually.
+   Finally, while Zara offers a recycling program, the brand doesn't provide any information about waste management practices, such as water disposal. This issue is of grave concern because the fashion industry accounts for nearly 20% of all water pollution worldwide.</p>
+   
+   <br>
+   <br>
+   <h3 class="tab">Zara's statistics</h3>
+   <br>
+   <section>
+     <div class="container">
         <table id="stat" class="table table-dark table-striped">
             <tr>
-                <th>Year</th>
-                <th>Net Worth</th>
-                <th>Number of Employees</th>
+                <td>Year</td>
+                <td>Net Worth</td>
+                <td>Number of employees</td>
             </tr>
             <tr>
                 <td>2022</td>
@@ -184,7 +184,7 @@ Finally, while Zara offers a recycling program, the brand doesn't provide any in
             </tr>
             <tr>
                 <td>2018</td>
-                <td>$417.45 billion</td>
+                <td>417.45 billion</td>
                 <td>12,595 employees</td>
             </tr>
             <tr>
@@ -198,8 +198,8 @@ Finally, while Zara offers a recycling program, the brand doesn't provide any in
                 <td>11,954 employees</td>
             </tr>
         </table>
-    </div>
-</section>
-
+     </div>
+   </section>
+    
 </body>
 </html>
