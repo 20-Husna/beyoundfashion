@@ -1,12 +1,10 @@
-
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     max-width: 100vw; 
-    overflow-x: hidden;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
-
 
 .navbar {
     background-image: url('menu.png');
@@ -15,7 +13,6 @@ body {
     background-repeat: no-repeat;
     color: white;
 }
-
 
 .video-container {
     width: 100%; 
@@ -31,63 +28,58 @@ video {
     max-width: 100vw; 
 }
 
-
 .navbar-nav .nav-link {
     color: white;
     font-weight: bold;
     font-size: 1.25em;
 }
 
-
 .footer {
-  background-image: url('f1.jpg');
-  background-size: cover;
-  background-position: center;
-  text-align: center;
+    background-image: url('f1.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
 }
 
 .footer-heading {
-  font-size: 28px;
-  margin-bottom: 10px;
-  color: #ffcc00;
-  font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #ffcc00;
+    font-weight: bold;
 }
 
 .footer-links a {
-  color: #fff;
-  display: inline-block;
-  margin: 0 18.5px;
-  font-size: 19px;
-  text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin: 0 18.5px;
+    font-size: 19px;
+    text-decoration: none;
 }
-
 
 .form-group {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
-
 
 form button {
-  width: 100%;
-  padding: 20px; 
-  cursor: pointer;
-  font-size: 19px;
+    width: 100%;
+    padding: 20px; 
+    cursor: pointer;
+    font-size: 19px;
 }
 
-
 .social-icons {
-  text-align: center;
-  margin-top: 10px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .social-icons a {
-  color: #fff;
-  margin: 0 10px;
-  font-size: 30px;
-  text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    font-size: 30px;
+    text-decoration: none;
 }
 
-
+/* Mobile Styles */
 @media only screen and (max-width: 768px) {
     body {
         padding: 10px;
@@ -112,7 +104,7 @@ form button {
     }
 }
 
-
+/* Desktop Styles */
 @media only screen and (min-width: 769px) {
     body {
         font-size: 18px;
