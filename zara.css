@@ -1,22 +1,27 @@
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 100vw; 
-    overflow-x: hidden;
+    max-width: 100vw;
+    overflow-x: hidden; 
 }
+
 
 h1 {
     text-align: center;
     padding-top: 24pt;
 }
 
+
 img {
-    width: 100%; 
-    max-height: 500px; 
-    height: auto; 
-    padding-left: 0;
+    width: 80%;
+    max-width: 800px; 
+    display: block;
+    margin: 0 auto; 
+    height: auto;
 }
+
 
 p {
     padding-left: 10pt;
@@ -24,8 +29,16 @@ p {
     text-align: justify;
 }
 
+
 .tab {
     text-align: center;
+}
+
+table {
+    height: auto;
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto; 
 }
 
 table td:hover {
@@ -33,38 +46,70 @@ table td:hover {
     color: black;
 }
 
-h4 {
-    padding-left: 10pt;
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px auto;
+    max-width: 100%;
+    overflow: hidden;
 }
 
-table {
-    width: 100%; 
+video {
+    width: 80%;
+    max-width: 1080px; 
     height: auto; 
+    border-radius: 8px; 
+}
+
+
+h4 {
+    padding-left: 10pt;
 }
 
 .under {
     text-decoration: underline;
 }
 
-#vid {
-    width: 100%; 
-    max-width: 100%; 
-    height: auto;
-    margin-left: 0; 
-}
-
 
 @media only screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+   
     img {
-        padding-left: 0; 
+        width: 100%;
+        padding-left: 0;
+    }
+
+    video {
+        width: 100%; 
+        max-width: 100%; 
+        height: auto;
     }
 
     table {
-        font-size: 14px; 
+        width: 100%;
     }
 
-    p {
-        padding-left: 5pt; 
-        padding-right: 5pt;
+    .video-container {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+@media only screen and (min-width: 769px) {
+    body {
+        font-size: 18px;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
     }
 }
