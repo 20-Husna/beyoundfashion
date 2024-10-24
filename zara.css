@@ -1,72 +1,42 @@
-h1 {
+h1{
     text-align: center;
     padding-top: 20pt;
+    
 }
-
-img {
-    height: auto; 
-    width: 80%; 
-    max-width: 500px; 
-    display: block; 
-    margin: 0 auto; 
+img{
+    height:500;
+    width:80%;
+    padding-left: 200pt;
+    
 }
-
-p {
+p{
     padding-left: 10pt;
     padding-right: 10pt;
     text-align: justify;
 }
-
-.tab {
+.tab{
     text-align: center;
 }
 
-table td:hover {
+table td:hover{
     background-color: aliceblue;
     color: black;
 }
 
-h4 {
+
+
+h4{
     padding-left: 10pt;
 }
-
-table {
-    width: 100%; 
-    max-width: 600px; 
-    margin: 0 auto; 
-    border-collapse: collapse; 
+table{
+    height: 200pt;
+    width:150pt;
 }
 
 
-@media only screen and (max-width: 768px) {
-    h1 {
-        font-size: 24px; 
-    }
-
-    img {
-        width: 100%; 
-        padding-left: 0; 
-    }
-
-    p {
-        padding-left: 5pt; 
-        padding-right: 5pt;
-    }
-
-    table {
-        width: 100%; 
-    }
-
-    table td {
-        padding: 10pt; 
-    }
-
-    .under {
-        text-align: center; 
-    }
-
-    #vid {
-        margin-left: 0; 
-        width: 100%; 
-    }
+.under{
+    text-decoration: underline;
+}
+#vid{
+    margin-left: 25%
 }
