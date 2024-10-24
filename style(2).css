@@ -1,44 +1,44 @@
-/* Base Styles */
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 100vw; /* Prevent horizontal overflow */
-    overflow-x: hidden; /* Disable horizontal scrolling */
+    max-width: 100vw; 
+    overflow-x: hidden;
 }
 
-/* Navbar Styles */
+
 .navbar {
     background-image: url('menu.png');
-    background-size: contain; /* Ensure navbar image fits */
+    background-size: contain; 
     background-position: center;
     background-repeat: no-repeat;
     color: white;
 }
 
-/* Video Container */
+
 .video-container {
-    width: 100%; /* Make video container fully responsive */
-    max-width: 100%; /* Ensure video doesn't exceed screen width */
+    width: 100%; 
+    max-width: 100%; 
     margin: 0 auto;
-    padding: 0; /* Ensure no padding causes overflow */
-    overflow: hidden; /* Prevent video overflow */
+    padding: 0;
+    overflow: hidden; 
 }
 
 video {
     width: 100%; 
-    height: auto; /* Ensure video scales correctly */
-    max-width: 100vw; /* Ensure video doesn’t exceed viewport width */
+    height: auto; 
+    max-width: 100vw; 
 }
 
-/* Navbar Links */
+
 .navbar-nav .nav-link {
     color: white;
     font-weight: bold;
     font-size: 1.25em;
 }
 
-/* Footer Styles */
+
 .footer {
   background-image: url('f1.jpg');
   background-size: cover;
@@ -61,20 +61,20 @@ video {
   text-decoration: none;
 }
 
-/* Form Group */
+
 .form-group {
   margin-bottom: 10px;
 }
 
-/* Form Button */
+
 form button {
   width: 100%;
-  padding: 20px; /* Adjusted padding for better compatibility */
+  padding: 20px; 
   cursor: pointer;
   font-size: 19px;
 }
 
-/* Social Icons */
+
 .social-icons {
   text-align: center;
   margin-top: 10px;
@@ -87,7 +87,7 @@ form button {
   text-decoration: none;
 }
 
-/* Responsive Styles for Mobile Devices */
+
 @media only screen and (max-width: 768px) {
     body {
         padding: 10px;
@@ -99,20 +99,20 @@ form button {
     }
     .video-container {
         width: 100%;
-        max-width: 100%; /* Ensure video fits within the mobile screen */
-        overflow: hidden; /* Prevent horizontal overflow */
+        max-width: 100%; 
+        overflow: hidden; 
     }
     video {
-        width: 100%; /* Ensure video fully fits the screen */
+        width: 100%;
         height: auto;
-        max-width: 100vw; /* Ensure video doesn’t exceed viewport width */
+        max-width: 100vw; 
     }
     form button {
-        padding: 15px; /* Smaller padding for mobile */
+        padding: 15px;
     }
 }
 
-/* Styles for Larger Screens */
+
 @media only screen and (min-width: 769px) {
     body {
         font-size: 18px;
